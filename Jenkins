@@ -1,0 +1,9 @@
+node{
+   stage('SCM Checkout') {
+      git 'https://gihub.com/abhigorecha/jenkins'
+    }
+    stage('Compile-Package'){
+      sh '|'
+     }
+     
+  } 
